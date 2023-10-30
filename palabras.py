@@ -24,4 +24,3 @@ def invertir(cadena: str) -> str:
 
     return cadena[::-1]
 
-print(invertir('hola'))

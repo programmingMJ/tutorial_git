@@ -10,8 +10,7 @@ def longitud(cadena: str) -> int:
     :return: Longitud de la cadena.
     """
 
-    # ¡Tu código va aquí!
-    pass
+    return len(cadena)
 
 
 def invertir(cadena: str) -> str:
@@ -23,6 +22,6 @@ def invertir(cadena: str) -> str:
     :return: Cadena invertida.
     """
 
-    # ¡Tu código va aquí!
-    pass
+    return cadena[::-1]
 
+print(invertir('hola'))
